@@ -70,7 +70,7 @@ export default class Router {
 
     if (!matchFound) {
       console.warn("[Router] No route matched, passing to subscriber:", path);
-      this._callback && this._callback({ route: path, params: urlParams });
+      window.location.href = "/404.html";
     }
   }
 
