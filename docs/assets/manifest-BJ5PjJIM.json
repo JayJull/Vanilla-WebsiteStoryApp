@@ -1,0 +1,51 @@
+{
+  "name": "Story App",
+  "short_name": "Stories",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4466e5",
+  "orientation": "portrait",
+  "description": "Aplikasi Story PWA",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Story",
+      "short_name": "Tambah",
+      "description": "Langsung ke halaman tambah story",
+      "url": "#/add",
+      "icons": [
+        {
+          "src": "/images/shortcut-add.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide"
+    },
+    {
+      "src": "/images/screenshot-mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "platform": "narrow"
+    }
+  ]
+}
